@@ -1,8 +1,8 @@
 # DontValidate
 
-TODO: Write a gem description
+Remove earlier defined validations from ActiveModel inheritors.
 
-Remove earlier defined validations from ActiveModels
+Use when updating the source file is not feasible
 
 Add this line to your application's Gemfile:
 
