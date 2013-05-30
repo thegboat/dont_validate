@@ -2,7 +2,7 @@
 
 TODO: Write a gem description
 
-## Installation
+Remove earlier defined validations from ActiveModels
 
 Add this line to your application's Gemfile:
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  The inverse of validates
+
+    $ validates :some_attribute, :presence => true
+
+    $ dont_validate :some_attribute, :presence => true
+
+    $ validates :some_attribute, :format => {:with => /\d+/}
+    
+    $ dont_validate :some_attribute, :format => true
+
+
 
 ## Contributing
 

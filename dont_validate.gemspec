@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gradygriffin@gmail.com"]
   spec.description   = %q{Gem to remove previously set validations}
   spec.summary       = %q{Removes validations in a ActiveModel models when the changes to the original class or superclass are not feasible}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/thegboat/dont_validate"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
