@@ -29,8 +29,6 @@ Or install it yourself as:
     dont_validate :some_attribute, :format => true
 
 
-Not tested with custom validators but should work.
-
 
 
 ## Contributing
