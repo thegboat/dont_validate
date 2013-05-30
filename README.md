@@ -20,13 +20,16 @@ Or install it yourself as:
 
   The inverse of validates
 
-    $ validates :some_attribute, :presence => true
+    validates :some_attribute, :presence => true
 
-    $ dont_validate :some_attribute, :presence => true
+    dont_validate :some_attribute, :presence => true
 
-    $ validates :some_attribute, :format => {:with => /\d+/}
-    
-    $ dont_validate :some_attribute, :format => true
+    validates :some_attribute, :format => {:with => /\d+/}
+
+    dont_validate :some_attribute, :format => true
+
+
+Not tested with custom validators but should work.
 
 
 
