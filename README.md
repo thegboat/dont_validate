@@ -1,6 +1,6 @@
 # DontValidate
 
-Remove earlier defined validations from ActiveModel inheritors.
+Remove/skip validations earlier defined validations from ActiveModels.
 
 Use when updating the source file is not feasible
 
